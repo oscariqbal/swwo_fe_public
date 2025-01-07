@@ -27,7 +27,7 @@ export default function Home() {
 
           <div className="h-[50%] w-[100%] md:h-[100%] md:w-[50%]">
             
-            <div className="h-[75%] w-[100%] md:h-[60%] md:w-[100%] flex flex-col justify-center items-center gap-3 md:justify-end md:pr-5 md:items-start md:pb-3">
+            <div className="h-[75%] w-[100%] md:h-[60%] md:w-[100%] flex flex-col justify-center items-start gap-3 md:justify-end md:pr-5 md:items-start md:pb-3">
               <h1 className="font-[family-name:var(--font-eb-garamond)] md:mb-7 p-2 font-medium text-base sm:text-medium md:text-2xl lg:text-3xl xl:text-4xl text-left border-l-4 border-[var(--highlight-color)] ">
                 Satria Wijaya Wedding Organizer
               </h1>
