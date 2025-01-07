@@ -67,16 +67,16 @@ export default function Home() {
       {/* BAGIAN 3 */}
       <div className="bg-[var(--neutral-color)] h-[100vh] flex flex-col items-center justify-center">
         {/*bg-[url('/wedding.png')]*/}
-        <div className="border border-white w-[100%] h-[90%] md:h-[80%] flex flex-col items-center justify-between bg-black bg-cover bg-center bg-no-repeat">
+        <div className="border border-white w-[100%] h-[90%] md:h-[80%] flex flex-col items-center justify-between bg-[url('/weddingfix.jpg')] bg-cover bg-center bg-no-repeat">
     
           <div className="flex justify-start items-start mt-5 w-[90%] h-[20%] md:w-[80%] md:h-[20%]">
-            <h1 className="bg-[rgba(255,255,255,0.3)] text-[var(--neutral-color)] font-[family-name:var(--font-eb-garamond)] p-2 font-medium text-base sm:text-medium md:text-2xl lg:text-3xl xl:text-4xl text-left border-l-4 border-[var(--highlight-color)]">
+            <h1 className="bg-[rgba(255,255,255,0.85)] text-[var(--highlight-color)] font-[family-name:var(--font-eb-garamond)] p-2 font-medium text-base sm:text-medium md:text-2xl lg:text-3xl xl:text-4xl text-left border-l-4 border-[var(--highlight-color)]">
               Setiap detail dirancang dengan cermat demi momen yang tak terlupakan
             </h1>
           </div>
 
           <div className="flex justify-end items-end mb-5 w-[90%] h-[20%] md:w-[80%] md:h-[20%]">
-            <div className="bg-[rgba(255,255,255,0.3)] text-[var(--neutral-color)] font-[family-name:var(--font-eb-garamond)] p-2 font-medium text-base sm:text-medium md:text-2xl lg:text-3xl xl:text-4xl text-right border-r-4 border-[var(--highlight-color)]">
+            <div className="bg-[rgba(255,255,255,0.85)] text-[var(--highlight-color)] font-[family-name:var(--font-eb-garamond)] p-2 font-medium text-base sm:text-medium md:text-2xl lg:text-3xl xl:text-4xl text-right border-r-4 border-[var(--highlight-color)]">
               Ciptakan indahnya momen abadi anda bersama kami
             </div>
           </div>
