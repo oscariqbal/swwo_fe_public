@@ -1,7 +1,7 @@
 import { Plus_Jakarta_Sans, EB_Garamond } from "next/font/google";
 import "./globals.css";
-import Header from './header.js';
-import Footer from './footer.js';
+import Header from './header.jsx';
+import Footer from './footer.jsx';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: '--font-plus-jakarta-sans',
