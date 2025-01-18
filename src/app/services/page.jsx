@@ -1,4 +1,5 @@
-import Card from './card';
+import Image from "next/image";
+import Link from "next/link";
 
 const products = [
   { id: 1,  image: '/img/Service/1.jpeg', title: 'catering'},
@@ -34,12 +35,30 @@ export default function Service() {
         <div className="h-[100%] w-[90%] md:w-[80%] flex flex-col">
           <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 mb-6 md:mb-16'>
           {products.map((product) => (
-            <Card
-              key={product.id}
-              image={product.image}
-              title={product.title}
-              url={product.title}
-            />
+            <div key={product.id} className="flex flex-col rounded shadow-md bg-white">
+              <div className="m-2 md:m-4 h-20 md:h-40 rounded text-white shadow-lg">
+                  <Image
+                      className="h-[100%] w-[100%] text-[var(--text-color)] text-xs rounded"
+                      src={product.image}
+                      alt={product.title}
+                      width={640}
+                      height={794}
+                      priority
+                  />
+              </div>
+              <div className="m-2 md:m-4 capitalize">
+                  <h5 className="mb-2 font-semibold text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl antialiased">
+                      {product.title}
+                  </h5>
+              </div>
+              <div className="m-2 md:m-4 mt-auto">
+                  <Link href={product.title}>
+                      <button data-ripple-light="true" type="button" className="font-normal text-xs sm:text-sm md:text-base px-2 py-1 md:px-4 md:py-2 text-[var(--neutral-color)] bg-[var(--highlight-color)] rounded shadow-md shadow-[var(--main-color)] transition-all hover:shadow-lg hover:shadow-[var(--main-color)] focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none">
+                          Selengkapnya
+                      </button>
+                  </Link>
+              </div>
+            </div>
           ))}
           </div>
         </div>

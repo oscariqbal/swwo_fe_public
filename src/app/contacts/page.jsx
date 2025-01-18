@@ -1,5 +1,4 @@
 import {WhatsApp, GoogleMaps} from "../externalLink";
-import Image from "next/image";
 
 export default function Contact() {
   return (
