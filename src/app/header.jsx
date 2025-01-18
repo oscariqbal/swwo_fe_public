@@ -13,7 +13,7 @@ export default function Header() {
                 <Link href="/" className="flex justify-center items-center">
                     <Image
                         className="p-2 w-28 h-auto sm:w-28 sm:h-auto md:w-56 md:h-auto lg:w-56 lg:h-auto"
-                        src="/logo.png"
+                        src="/img/logo.png"
                         alt="SWWO Logo"
                         width={1280}
                         height={355}
